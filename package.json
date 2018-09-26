@@ -1,0 +1,31 @@
+{
+  "name": "start-app",
+  "version": "1.0.0",
+  "description": "Start a very basic app and run a basic test in Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-leggett/start-app.git"
+  },
+  "author": "Ian Leggett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-leggett/start-app/issues"
+  },
+  "homepage": "https://github.com/ian-leggett/start-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+*.DS_Store
+.tmp/
+*.iml
+.idea
+*.log
+node_modules/
