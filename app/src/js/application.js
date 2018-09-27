@@ -1,2 +1,2 @@
 const add = require('./module.js');
-add(1,2)
+add(1,2);

@@ -22,4 +22,3 @@ gulp.task('scripts', () => {
 });
 
 
-gulp.task('default', ['scripts']);
