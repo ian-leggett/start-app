@@ -1,3 +1,10 @@
-const gulp = require('gulp')
+const gulp = require('gulp');
+const runSequence = require('run-sequence');
 
-gulp.task('default', ['test', 'scripts']);
+gulp.task('default', () => {
+  runSequence(
+    'scripts',
+    'serve',
+    'watch',
+  );
+});
